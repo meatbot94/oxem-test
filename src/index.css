@@ -1,0 +1,11 @@
+:root {
+	--bg-00: #ffffff;
+
+	--sh-00: #f3f3f4;
+	--sh-01: #ebebec;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
