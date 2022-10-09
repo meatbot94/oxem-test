@@ -5,6 +5,7 @@
 	--sh-01: #ebebec;
 
 	--tx-01: #111111;
+	--tx-02: #333e48;
 }
 
 * {
@@ -27,3 +28,18 @@ h5,
 h6 {
 	margin: 0;
 }
+
+/* TODO remove all unused rules */
+
+/* TODO remove template after layout is finished */
+
+/*
+@media screen and (max-width: 1120px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 320px) {
+}
+*/

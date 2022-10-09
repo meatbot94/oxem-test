@@ -1,7 +1,25 @@
 .title {
-	/* position & sizing */
-	margin: 0 0 32px 0;
 	/* style */
-	font: 900 34px/30.6px 'Nekst', arial, sans-serif;
+	font: 900 54px/49px 'Nekst', arial, sans-serif;
 	color: var(--tx-01);
+}
+
+@media screen and (max-width: 1120px) {
+}
+
+@media screen and (max-width: 768px) {
+	.title {
+		/* style */
+		font: 900 7.03125vw/6.3802083333333vw 'Nekst', arial, sans-serif;
+	}
+}
+
+@media screen and (max-width: 483px) {
+	.title {
+		/* style */
+		font: 900 34px/30.6px 'Nekst', arial, sans-serif;
+	}
+}
+
+@media screen and (max-width: 320px) {
 }

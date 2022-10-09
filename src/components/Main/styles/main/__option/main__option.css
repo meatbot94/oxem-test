@@ -1,11 +1,17 @@
-.option {
+.main__option {
+	/* position & sizing */
+	width: 100%;
 }
 
 @media screen and (max-width: 1120px) {
 }
 
 @media screen and (max-width: 768px) {
+	.main__option {
+	}
 }
 
 @media screen and (max-width: 320px) {
+	.main__option {
+	}
 }

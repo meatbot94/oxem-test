@@ -1,0 +1,6 @@
+/* block */
+@import url('../styles/main/main.css');
+
+/* elements */
+@import url('../styles/main/__options/main__options.css');
+@import url('../styles/main/__option/main__option.css');
