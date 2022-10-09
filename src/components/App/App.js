@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer';
 
 const App = () => {
 	// TODO pass w3c validation
+	// TODO refactor config.json to objects config.js
 
 	return (
 		<div className='app'>

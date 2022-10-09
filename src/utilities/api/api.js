@@ -1,3 +1,5 @@
+import { API } from '../../configs/config';
+
 class Api {
 	constructor(url) {
 		this._url = url;
@@ -15,8 +17,6 @@ class Api {
 		}).then(response => this._handleResponse(response));
 	}
 }
-
-const { API } = require('../../configs/config.json');
 
 const api = new Api(API.BASE_URL);
 

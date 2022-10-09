@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 1120px) {
 }
-
+/* TODO recount this breakpoint to 1024px */
 @media screen and (max-width: 768px) {
 	.title {
 		/* style */
@@ -21,5 +21,5 @@
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 414px) {
 }

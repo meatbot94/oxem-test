@@ -2,7 +2,7 @@ import './styles/index.css';
 
 import Title from '../Title/Title';
 
-const { CONTENT } = require('../../configs/config.json');
+import { CONTENT } from '../../configs/config';
 
 const Header = ({ mix }) => (
 	<header className={`${mix} header`}>

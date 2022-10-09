@@ -1,15 +1,16 @@
 :root {
 	--bg-00: #ffffff;
+	--bg-01: #f3f3f4;
+	--bg-02: #e0e0e0;
 
 	--sh-00: #f3f3f4;
 	--sh-01: #ebebec;
 
 	--tx-01: #111111;
 	--tx-02: #333e48;
-}
+	--tx-03: #575757;
 
-* {
-	/* TODO remove if not used */
+	--ac-00: #ff9514;
 }
 
 html {
@@ -29,6 +30,14 @@ h6 {
 	margin: 0;
 }
 
+p {
+	margin: 0;
+}
+
+input {
+	line-height: 0;
+}
+
 /* TODO remove all unused rules */
 
 /* TODO remove template after layout is finished */
@@ -37,9 +46,9 @@ h6 {
 @media screen and (max-width: 1120px) {
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 414px) {
 }
 */

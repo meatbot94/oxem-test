@@ -1,25 +1,18 @@
 .header__title {
 	/* position & sizing */
 	max-width: 753px;
-	margin: 0 0 32px 0;
-	/* TODO remove background color */
-	background: grey;
 }
 
 @media screen and (max-width: 1120px) {
 }
 
-@media screen and (max-width: 768px) {
+/* changed breakpoint because looks better */
+@media screen and (max-width: 960px) {
 	.header__title {
 		/* position & sizing */
 		max-width: 100%;
-		margin: 0 0 44px 0;
 	}
 }
 
-@media screen and (max-width: 320px) {
-	.header__title {
-		/* position & sizing */
-		margin: 0 0 32px 0;
-	}
+@media screen and (max-width: 414px) {
 }
