@@ -1,6 +1,6 @@
-import './Result.css';
+import './styles/index.css';
 
-const Result = () => {
+const Result = ({ mix }) => {
 	return <div></div>;
 };
 

@@ -1,6 +1,6 @@
-import './Submit.css';
+import './styles/index.css';
 
-const Submit = () => {
+const Submit = ({ mix }) => {
 	return <div></div>;
 };
 

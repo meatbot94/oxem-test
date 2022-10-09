@@ -1,0 +1,7 @@
+.title {
+	/* position & sizing */
+	margin: 0 0 32px 0;
+	/* style */
+	font: 900 34px/30.6px 'Nekst', arial, sans-serif;
+	color: var(--tx-01);
+}

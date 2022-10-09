@@ -2,5 +2,24 @@
 	"API": {
 		"BASE_URL": "https://hookb.in"
 	},
-	"CONTENT": {}
+	"CONTENT": {
+		"HEADER": {
+			"TITLE": "Рассчитайте стоимость автомобиля в лизинг"
+		},
+		"MAIN": {
+			"INPUT": {
+				"CREDIT_SUM": "Желаемая сумма кредита",
+				"FIRST_PAYMENT": "Первоначальный взнос",
+				"LEASING_PERIOD": "Срок лизинга"
+			},
+			"RESULT": {
+				"LEASING_AMOUNT": "Сумма договора лизинга",
+				"MONTHLY_PAYMENT": "Ежемесячный платеж от"
+			},
+			"SUBMIT": {
+				"SUBMIT": "Оставить заявку"
+			},
+			"FOOTER": {}
+		}
+	}
 }

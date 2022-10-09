@@ -1,11 +1,15 @@
-import './App.css';
+import './styles/index.css';
 
-import Title from '../Title/Title';
+import Header from '../Header/Header';
+import Main from '../Main/Main';
+import Footer from '../Footer/Footer';
 
 const App = () => {
 	return (
 		<div className='app'>
-			<Title mix='app__title' />
+			<Header mix='app__header' />
+			<Main mix='app__main' />
+			<Footer mix='app__footer' />
 		</div>
 	);
 };

@@ -1,7 +1,7 @@
-import './Title.css';
+import './styles/index.css';
 
-const Title = ({ mix }) => {
-	return <div className={`${mix} name`}>Hello</div>;
-};
+const { CONTENT } = require('../../configs/config.json');
+
+const Title = ({ mix }) => <h1 className={`${mix} title`}>{CONTENT.HEADER.TITLE}</h1>;
 
 export default Title;
