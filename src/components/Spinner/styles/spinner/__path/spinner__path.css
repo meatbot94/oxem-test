@@ -1,0 +1,21 @@
+@keyframes dash {
+	0% {
+		stroke-dashoffset: var(--sp-offset);
+	}
+	50% {
+		stroke-dashoffset: var(--sp-offset) / 4;
+		transform: rotate(135deg);
+	}
+	100% {
+		stroke-dashoffset: var(--sp-offset);
+		transform: rotate(450deg);
+	}
+}
+
+.spinner__path {
+	stroke-dasharray: var(--sp-offset);
+	stroke-dashoffset: 0;
+	transform-origin: center;
+	stroke: var(--bg-00);
+	animation: dash var(--sp-duration) ease-in-out infinite;
+}

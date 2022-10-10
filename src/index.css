@@ -2,6 +2,7 @@
 	--bg-00: #ffffff;
 	--bg-01: #f3f3f4;
 	--bg-02: #e0e0e0;
+	--bg-03: #e1e1e1;
 
 	--sh-00: #f3f3f4;
 	--sh-01: #ebebec;
@@ -12,6 +13,9 @@
 	--tx-03: #575757;
 
 	--ac-00: #ff9514;
+
+	--sp-duration: 1.4s;
+	--sp-offset: 187;
 }
 
 html {
@@ -42,7 +46,6 @@ input {
 input[type='range'] {
 	-webkit-appearance: none;
 	appearance: none;
-	background: transparent;
 }
 
 /* TODO check all input defaults */
@@ -50,8 +53,8 @@ input[type='range'] {
 input[type='range']::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	appearance: none;
-	/* TODO check this crunch */
-	transform: translate(0, -8px);
+	/* TODO check this crutch */
+	/* transform: translate(0, -8px); */
 }
 
 button {

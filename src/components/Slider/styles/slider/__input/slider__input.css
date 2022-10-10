@@ -1,17 +1,20 @@
 .slider__input {
 	/* position & sizing */
 	position: absolute;
-	bottom: -9px;
+	bottom: 0;
 	left: 24px;
-	height: 20px;
+	height: 2px;
 	width: calc(100% - 48px);
 	/* style */
-	background: transparent;
+	background: var(--bg-03);
+	background-image: linear-gradient(var(--ac-00), var(--ac-00));
+	background-repeat: no-repeat;
+	border-radius: 2px 2px 0 0;
 }
 
-/* TODO check in other browsers */
-
-/* chrome input */
+.slider__input:active {
+	height: 1px;
+}
 
 .slider__input::-webkit-slider-thumb {
 	/* position & sizing */
@@ -21,20 +24,8 @@
 	border: none;
 	border-radius: 100%;
 	background: var(--ac-00);
-	cursor: pointer;
+	cursor: grab;
 }
-
-.slider__input::-webkit-slider-runnable-track {
-	/* position & sizing */
-	width: 100%;
-	height: 2px;
-	/* style */
-	cursor: pointer;
-	background: var(--ac-00);
-	border-radius: 2px 2px 0 0;
-}
-
-/* firefox input */
 
 .slider__input::-moz-range-thumb {
 	/* position & sizing */
@@ -44,20 +35,8 @@
 	border: none;
 	border-radius: 100%;
 	background: var(--ac-00);
-	cursor: pointer;
+	cursor: grab;
 }
-
-.slider__input::-moz-range-track {
-	/* position & sizing */
-	width: 100%;
-	height: 2px;
-	/* style */
-	cursor: pointer;
-	background: var(--ac-00);
-	border-radius: 2px 2px 0 0;
-}
-
-/* edge input */
 
 .slider__input::-ms-thumb {
 	/* position & sizing */
@@ -67,17 +46,21 @@
 	border: none;
 	border-radius: 100%;
 	background: var(--ac-00);
-	cursor: pointer;
+	cursor: grab;
 }
 
-.slider__input::-ms-track {
-	/* position & sizing */
-	width: 100%;
-	height: 2px;
-	/* style */
-	cursor: pointer;
-	background: var(--ac-00);
-	border-radius: 2px 2px 0 0;
+@media screen and (max-width: 1120px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 414px) {
+	.slider__input {
+		/* position & sizing */
+		left: 20px;
+		width: calc(100% - 40px);
+	}
 }
 
 @media screen and (max-width: 1120px) {

@@ -11,6 +11,7 @@ const Main = ({ mix }) => {
 			<section className='main__sliders'>
 				<Slider
 					mix='main__slider'
+					disabled={true}
 					config={{
 						percent: false,
 						content: {
@@ -20,14 +21,16 @@ const Main = ({ mix }) => {
 						input: {
 							id: 'creditInput',
 							name: 'credit',
-							min: '0',
-							max: '100',
-							step: '1',
+							min: 0,
+							max: 100,
+							step: 1,
+							defaultValue: 25,
 						},
 					}}
 				/>
 				<Slider
 					mix='main__slider'
+					disabled={false}
 					config={{
 						percent: true,
 						content: {
@@ -37,14 +40,16 @@ const Main = ({ mix }) => {
 						input: {
 							id: 'paymentInput',
 							name: 'payment',
-							min: '0',
-							max: '100',
-							step: '5',
+							min: 0,
+							max: 100,
+							step: 5,
+							defaultValue: 30,
 						},
 					}}
 				/>
 				<Slider
 					mix='main__slider'
+					disabled={false}
 					config={{
 						percent: false,
 						content: {
@@ -54,9 +59,10 @@ const Main = ({ mix }) => {
 						input: {
 							id: 'periodInput',
 							name: 'period',
-							min: '0',
-							max: '100',
-							step: '1',
+							min: 0,
+							max: 100,
+							step: 1,
+							defaultValue: 40,
 						},
 					}}
 				/>

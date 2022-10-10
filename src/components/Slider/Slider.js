@@ -1,9 +1,12 @@
+import { useState } from 'react';
+
 import './styles/index.css';
 
-const Slider = ({ mix, config }) => {
+const Slider = ({ mix, disabled, config }) => {
 	// TODO temporary values
 	const amount = '3 300 000';
-	const value = '15';
+
+	const [value, setValue] = useState(config.input.defaultValue);
 
 	return (
 		<div className={`${mix} slider`}>
@@ -25,9 +28,10 @@ const Slider = ({ mix, config }) => {
 					type='range'
 					min={config.input.min}
 					max={config.input.max}
-					// value='25'
+					value={value}
 					step={config.input.step}
-					onChange={e => console.log(e.target.value)}
+					onChange={e => setValue(e.target.valueAsNumber)}
+					style={{ backgroundSize: `${(value * 100) / config.input.max}% 100%` }}
 				/>
 			</div>
 		</div>
