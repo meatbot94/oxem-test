@@ -3,14 +3,12 @@ export const CONTENT = {
 		TITLE: 'Рассчитайтe стоимость автомобиля в лизинг',
 	},
 	MAIN: {
-		INPUT: {
+		SLIDERS: {
 			CREDIT: 'Желаемая сумма кредита',
-			PAYMENT: 'Первоначальный взнос',
-			PERIOD: 'Срок лизинга',
-		},
-		SLIDER: {
 			CREDIT_UNIT: '₽',
+			PAYMENT: 'Первоначальный взнос',
 			PAYMENT_UNIT: '%',
+			PERIOD: 'Срок лизинга',
 			PERIOD_UNIT: 'мес.',
 		},
 		RESULT: {
@@ -21,7 +19,19 @@ export const CONTENT = {
 			SUBMIT: 'Оставить заявку',
 		},
 	},
-	FOOTER: {},
+	FOOTER: {
+		SUM: {
+			TITLE: 'Сумма договора лизинга',
+			UNIT: '₽',
+		},
+		MONTHLY: {
+			TITLE: 'Ежемесячный платеж от',
+			UNIT: '₽',
+		},
+		SUBMIT: {
+			CONTENT: 'Оставить заявку',
+		},
+	},
 };
 
 export const API = {

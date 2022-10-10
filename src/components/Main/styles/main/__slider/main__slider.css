@@ -1,4 +1,6 @@
-.option__slider {
+.main__slider {
+	/* position & sizing */
+	width: 100%;
 }
 
 @media screen and (max-width: 1120px) {

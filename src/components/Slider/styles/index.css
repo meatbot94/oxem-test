@@ -1,8 +1,12 @@
 /* block */
 @import url('./slider/slider.css');
 
-/* elements */
+/* element */
+@import url('./slider/__title/slider__title.css');
+@import url('./slider/__body/slider__body.css');
 @import url('./slider/__amount/slider__amount.css');
-@import url('./slider/__unit/slider__unit.css');
 @import url('./slider/__percent/slider__percent.css');
+@import url('./slider/__unit/slider__unit.css');
 @import url('./slider/__input/slider__input.css');
+
+/* TODO check import routes no ../styles */

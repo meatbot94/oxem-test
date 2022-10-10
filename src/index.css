@@ -6,6 +6,7 @@
 	--sh-00: #f3f3f4;
 	--sh-01: #ebebec;
 
+	--tx-00: #ffffff;
 	--tx-01: #111111;
 	--tx-02: #333e48;
 	--tx-03: #575757;
@@ -36,6 +37,29 @@ p {
 
 input {
 	line-height: 0;
+}
+
+input[type='range'] {
+	-webkit-appearance: none;
+	appearance: none;
+	background: transparent;
+}
+
+/* TODO check all input defaults */
+
+input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	/* TODO check this crunch */
+	transform: translate(0, -8px);
+}
+
+button {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	line-height: 0;
+	border: none;
 }
 
 /* TODO remove all unused rules */

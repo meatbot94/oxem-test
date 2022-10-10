@@ -1,0 +1,44 @@
+.submit__button {
+	/* position & sizing */
+	width: 100%;
+	height: 68px;
+	/* style */
+	background: var(--ac-00);
+	border-radius: 40px;
+	font: 900 30px/36px 'Nekst', arial, sans-serif;
+	color: var(--tx-00);
+}
+
+@media screen and (max-width: 1120px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+	.submit__button {
+		/* style */
+		font: 900 3.90625vw/4.6875vw 'Nekst', arial, sans-serif;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.submit__button {
+		/* style */
+		font: 900 5vw/6vw 'Nekst', arial, sans-serif;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.submit__button {
+		/* style */
+		font: 900 22px/20px 'Nekst', arial, sans-serif;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.submit__button {
+		/* position & sizing */
+		height: 60px;
+	}
+}

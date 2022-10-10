@@ -1,13 +1,13 @@
 .app {
 	/* position & sizing */
 	width: 100vw;
-	height: 100vh;
-	padding: 213px 96px 0 96px;
+	height: 100%;
+	padding: 213px 96px;
 }
 
 @media screen and (max-width: 1440px) {
 	.app {
-		padding: 213px 48px 0 48px;
+		padding: 213px 48px;
 	}
 }
 
@@ -15,17 +15,16 @@
 	/* TODO remove if unsused */
 }
 
-/* TODO think about this breakpoint */
 @media screen and (max-width: 1024px) {
 	.app {
 		/* position & sizing */
-		padding: 64px 36px 0 36px;
+		padding: 64px 36px;
 	}
 }
 
 @media screen and (max-width: 414px) {
 	.app {
 		/* position & sizing */
-		padding: 44px 20px 0 20px;
+		padding: 44px 20px;
 	}
 }
