@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/%7Brepo-name%7D/static/css/main.ada1f1c9.css",
+    "main.js": "/%7Brepo-name%7D/static/js/main.ba391adc.js",
+    "static/media/Nekst-Black.eot": "/%7Brepo-name%7D/static/media/Nekst-Black.5fc4621c869412e7e801.eot",
+    "static/media/Nekst-Black.ttf": "/%7Brepo-name%7D/static/media/Nekst-Black.dffaebf93d38d4c41536.ttf",
+    "static/media/Gilroy-Regular.eot": "/%7Brepo-name%7D/static/media/Gilroy-Regular.19055ba082a9f78262f6.eot",
+    "static/media/Gilroy-Regular.ttf": "/%7Brepo-name%7D/static/media/Gilroy-Regular.fa652e766b6a85a1f9cb.ttf",
+    "static/media/Nekst-Black.woff": "/%7Brepo-name%7D/static/media/Nekst-Black.f0e2921efcf1112b1749.woff",
+    "static/media/Nekst-Black.woff2": "/%7Brepo-name%7D/static/media/Nekst-Black.44814bfd3ba4a266cf1d.woff2",
+    "static/media/Gilroy-Regular.woff": "/%7Brepo-name%7D/static/media/Gilroy-Regular.ebe86c0337572553acea.woff",
+    "static/media/Gilroy-Regular.woff2": "/%7Brepo-name%7D/static/media/Gilroy-Regular.f6c9931fabe5a6eb3307.woff2",
+    "index.html": "/%7Brepo-name%7D/index.html",
+    "main.ada1f1c9.css.map": "/%7Brepo-name%7D/static/css/main.ada1f1c9.css.map",
+    "main.ba391adc.js.map": "/%7Brepo-name%7D/static/js/main.ba391adc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ada1f1c9.css",
+    "static/js/main.ba391adc.js"
+  ]
+}
