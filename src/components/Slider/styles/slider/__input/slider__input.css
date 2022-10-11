@@ -10,6 +10,7 @@
 	background-image: linear-gradient(var(--ac-00), var(--ac-00));
 	background-repeat: no-repeat;
 	border-radius: 2px 2px 0 0;
+	transition: opacity 0.2s ease-out;
 }
 
 .slider__input:active {

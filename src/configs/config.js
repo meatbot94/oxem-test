@@ -1,3 +1,9 @@
+export const DEFAULT = {
+	DEFAULT_TOTAL: 2500000,
+	DEFAULT_PERCENT: 25,
+	DEFAULT_MONTHS: 25,
+};
+
 export const CONTENT = {
 	HEADER: {
 		TITLE: 'Рассчитайтe стоимость автомобиля в лизинг',

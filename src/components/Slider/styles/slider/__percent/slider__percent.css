@@ -11,6 +11,7 @@
 	border-radius: 16px;
 	font: 900 20px/24px 'Nekst', arial, sans-serif;
 	color: var(--tx-03);
+	transition: opacity 0.2s ease-out;
 }
 
 @media screen and (max-width: 1120px) {

@@ -3,6 +3,7 @@
 	font: 900 30px/36px 'Nekst', arial, sans-serif;
 	color: var(--tx-03);
 	text-align: right;
+	transition: opacity 0.2s ease-out;
 }
 
 @media screen and (max-width: 1120px) {

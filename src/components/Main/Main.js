@@ -1,3 +1,6 @@
+import { useContext } from 'react';
+import AppContext from '../../contexts/AppContext';
+
 import './styles/index.css';
 
 import Slider from '../Slider/Slider';
@@ -5,64 +8,74 @@ import Slider from '../Slider/Slider';
 import { CONTENT } from '../../configs/config';
 
 const Main = ({ mix }) => {
+	const { state, dispatch, initPayment } = useContext(AppContext);
+
 	return (
 		<main className={`${mix} main`}>
-			{/* sliders */}
 			<section className='main__sliders'>
 				<Slider
 					mix='main__slider'
-					disabled={true}
+					disabled={false}
+					dispatch={dispatch}
 					config={{
 						percent: false,
 						content: {
 							title: CONTENT.MAIN.SLIDERS.CREDIT,
 							unit: CONTENT.MAIN.SLIDERS.CREDIT_UNIT,
+							amount: state.total,
 						},
 						input: {
 							id: 'creditInput',
-							name: 'credit',
-							min: 0,
-							max: 100,
-							step: 1,
-							defaultValue: 25,
+							name: 'total',
+							min: 1000000,
+							max: 6000000,
+							step: 100000,
+							form: 'form',
+							value: state.total,
 						},
 					}}
 				/>
 				<Slider
 					mix='main__slider'
 					disabled={false}
+					dispatch={dispatch}
 					config={{
 						percent: true,
 						content: {
 							title: CONTENT.MAIN.SLIDERS.PAYMENT,
 							unit: CONTENT.MAIN.SLIDERS.PAYMENT_UNIT,
+							amount: initPayment,
 						},
 						input: {
 							id: 'paymentInput',
-							name: 'payment',
-							min: 0,
-							max: 100,
+							name: 'percent',
+							min: 10,
+							max: 60,
 							step: 5,
-							defaultValue: 30,
+							form: 'form',
+							value: state.percent,
 						},
 					}}
 				/>
 				<Slider
 					mix='main__slider'
 					disabled={false}
+					dispatch={dispatch}
 					config={{
 						percent: false,
 						content: {
 							title: CONTENT.MAIN.SLIDERS.PERIOD,
 							unit: CONTENT.MAIN.SLIDERS.PERIOD_UNIT,
+							amount: state.months,
 						},
 						input: {
 							id: 'periodInput',
-							name: 'period',
-							min: 0,
-							max: 100,
+							name: 'months',
+							min: 1,
+							max: 60,
 							step: 1,
-							defaultValue: 40,
+							form: 'form',
+							value: state.months,
 						},
 					}}
 				/>
