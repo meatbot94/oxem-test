@@ -1,5 +1,4 @@
 .title {
-	/* style */
 	font: 900 54px/49px 'Nekst', arial, sans-serif;
 	color: var(--tx-01);
 }
@@ -9,18 +8,12 @@
 
 @media screen and (max-width: 768px) {
 	.title {
-		/* style */
 		font: 900 7.03125vw/6.3802083333333vw 'Nekst', arial, sans-serif;
 	}
 }
 
-/* created additional breakpoint for smooth font-size change */
 @media screen and (max-width: 414px) {
 	.title {
-		/* style */
 		font: 900 34px/30.6px 'Nekst', arial, sans-serif;
 	}
-}
-
-@media screen and (max-width: 414px) {
 }

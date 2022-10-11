@@ -1,22 +1,12 @@
 .result__title {
-	/* position & sizing */
 	margin: 0 0 8px 0;
-	/* style */
 	font: 400 16px/24px 'Gilroy', arial, sans-serif;
 	color: var(--tx-03);
 }
 
-@media screen and (max-width: 1120px) {
-}
-
-@media screen and (max-width: 1024px) {
-}
-
 @media screen and (max-width: 414px) {
 	.result__title {
-		/* position & sizing */
 		margin: 0 0 2px 0;
-		/* style */
 		font: 400 14px/19px 'Gilroy', arial, sans-serif;
 	}
 }

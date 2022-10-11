@@ -1,11 +1,9 @@
 .slider__input {
-	/* position & sizing */
 	position: absolute;
 	bottom: 0;
 	left: 24px;
 	height: 2px;
 	width: calc(100% - 48px);
-	/* style */
 	background: var(--bg-03);
 	background-image: linear-gradient(var(--ac-00), var(--ac-00));
 	background-repeat: no-repeat;
@@ -18,10 +16,8 @@
 }
 
 .slider__input::-webkit-slider-thumb {
-	/* position & sizing */
 	height: 20px;
 	width: 20px;
-	/* style */
 	border: none;
 	border-radius: 100%;
 	background: var(--ac-00);
@@ -29,10 +25,8 @@
 }
 
 .slider__input::-moz-range-thumb {
-	/* position & sizing */
 	height: 20px;
 	width: 20px;
-	/* style */
 	border: none;
 	border-radius: 100%;
 	background: var(--ac-00);
@@ -40,39 +34,23 @@
 }
 
 .slider__input::-ms-thumb {
-	/* position & sizing */
 	height: 20px;
 	width: 20px;
-	/* style */
 	border: none;
 	border-radius: 100%;
 	background: var(--ac-00);
 	cursor: grab;
 }
 
-@media screen and (max-width: 1120px) {
-}
-
-@media screen and (max-width: 1024px) {
-}
-
 @media screen and (max-width: 414px) {
 	.slider__input {
-		/* position & sizing */
 		left: 20px;
 		width: calc(100% - 40px);
 	}
 }
 
-@media screen and (max-width: 1120px) {
-}
-
-@media screen and (max-width: 1024px) {
-}
-
 @media screen and (max-width: 414px) {
 	.slider__input {
-		/* position & sizing */
 		left: 20px;
 		width: calc(100% - 40px);
 	}

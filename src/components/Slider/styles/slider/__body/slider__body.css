@@ -1,31 +1,21 @@
 .slider__body {
-	/* position & sizing */
 	position: relative;
 	padding: 16px 24px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/* style */
 	background: var(--bg-01);
 	border-radius: 16px;
 	transition: opacity 0.2s ease-out, background 0.2s ease-out;
 }
 
 .slider__body:focus-within {
-	/* style */
 	background: var(--bg-00);
 	box-shadow: 0px 0px 0px 2px var(--sh-00) inset;
 }
 
-@media screen and (max-width: 1120px) {
-}
-
-@media screen and (max-width: 1024px) {
-}
-
 @media screen and (max-width: 414px) {
 	.slider__body {
-		/* position & sizing */
 		padding: 20px;
 	}
 }

@@ -1,15 +1,13 @@
 import { useContext } from 'react';
 import AppContext from '../../contexts/AppContext';
-
 import './styles/index.css';
-
 import Result from '../Result/Result';
 import Submit from '../Submit/Submit';
-
 import { CONTENT } from '../../configs/config';
 
 const Footer = ({ mix }) => {
-	const { monthPayment, totalPayment } = useContext(AppContext);
+	const { state, monthPayment, totalPayment } = useContext(AppContext);
+
 	return (
 		<footer className={`${mix} footer`}>
 			<Result
@@ -20,7 +18,7 @@ const Footer = ({ mix }) => {
 				mix='footer__result'
 				config={{ title: CONTENT.FOOTER.MONTHLY.TITLE, unit: CONTENT.FOOTER.MONTHLY.UNIT, amount: monthPayment }}
 			/>
-			<Submit mix='footer__submit' config={{ content: CONTENT.FOOTER.SUBMIT.CONTENT }} />
+			<Submit mix='footer__submit' disabled={state.disabled} config={{ content: CONTENT.FOOTER.SUBMIT.CONTENT }} />
 		</footer>
 	);
 };

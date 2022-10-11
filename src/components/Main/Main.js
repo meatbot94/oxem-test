@@ -1,10 +1,7 @@
 import { useContext } from 'react';
 import AppContext from '../../contexts/AppContext';
-
 import './styles/index.css';
-
 import Slider from '../Slider/Slider';
-
 import { CONTENT } from '../../configs/config';
 
 const Main = ({ mix }) => {
@@ -15,7 +12,7 @@ const Main = ({ mix }) => {
 			<section className='main__sliders'>
 				<Slider
 					mix='main__slider'
-					disabled={false}
+					disabled={state.disabled}
 					dispatch={dispatch}
 					config={{
 						percent: false,
@@ -37,7 +34,7 @@ const Main = ({ mix }) => {
 				/>
 				<Slider
 					mix='main__slider'
-					disabled={false}
+					disabled={state.disabled}
 					dispatch={dispatch}
 					config={{
 						percent: true,
@@ -59,7 +56,7 @@ const Main = ({ mix }) => {
 				/>
 				<Slider
 					mix='main__slider'
-					disabled={false}
+					disabled={state.disabled}
 					dispatch={dispatch}
 					config={{
 						percent: false,

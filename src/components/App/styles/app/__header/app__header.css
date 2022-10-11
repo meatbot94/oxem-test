@@ -1,21 +1,15 @@
 .app__header {
-	/* position & sizing */
 	margin: 0 0 32px 0;
-}
-
-@media screen and (max-width: 1120px) {
 }
 
 @media screen and (max-width: 1024px) {
 	.app__header {
-		/* position & sizing */
 		margin: 0 0 44px 0;
 	}
 }
 
 @media screen and (max-width: 414px) {
 	.app__header {
-		/* position & sizing */
 		margin: 0 0 32px 0;
 	}
 }

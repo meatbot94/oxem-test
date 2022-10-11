@@ -1,20 +1,12 @@
 .slider__unit {
-	/* style */
 	font: 900 30px/36px 'Nekst', arial, sans-serif;
 	color: var(--tx-03);
 	text-align: right;
 	transition: opacity 0.2s ease-out;
 }
 
-@media screen and (max-width: 1120px) {
-}
-
-@media screen and (max-width: 1024px) {
-}
-
 @media screen and (max-width: 414px) {
 	.slider__unit {
-		/* style */
 		font: 900 22px/20px 'Nekst', arial, sans-serif;
 	}
 }

@@ -1,0 +1,8 @@
+.submit__button_disabled {
+	opacity: 0.4;
+}
+
+.submit__button_disabled:hover {
+	background: var(--ac-00);
+	cursor: not-allowed;
+}

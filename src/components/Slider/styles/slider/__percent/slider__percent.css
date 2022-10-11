@@ -1,12 +1,10 @@
 .slider__percent {
-	/* position & sizing */
 	width: 69px;
 	height: 54px;
 	margin: -9px -17px -9px 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/* style */
 	background: var(--bg-02);
 	border-radius: 16px;
 	font: 900 20px/24px 'Nekst', arial, sans-serif;
@@ -14,12 +12,8 @@
 	transition: opacity 0.2s ease-out;
 }
 
-@media screen and (max-width: 1120px) {
-}
-
 @media screen and (max-width: 1024px) {
 	.slider__percent {
-		/* position & sizing */
 		width: 70px;
 		height: 54px;
 	}
@@ -27,11 +21,9 @@
 
 @media screen and (max-width: 414px) {
 	.slider__percent {
-		/* position & sizing */
 		width: 67px;
 		height: 48px;
 		margin: -14px -14px -14px 0;
-		/* style */
 		border-radius: 12px;
 		font: 900 22px/20px 'Nekst', arial, sans-serif;
 	}

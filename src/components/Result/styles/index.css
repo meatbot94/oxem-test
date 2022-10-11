@@ -1,6 +1,4 @@
-/* block */
 @import url('./result/result.css');
 
-/* elements */
 @import url('./result/__title/result__title.css');
 @import url('./result/__amount/result__amount.css');

@@ -1,7 +1,5 @@
-/* block */
 @import url('./slider/slider.css');
 
-/* element */
 @import url('./slider/__title/slider__title.css');
 @import url('./slider/__body/slider__body.css');
 @import url('./slider/__body/_disabled/slider__body_disabled.css');
@@ -12,5 +10,4 @@
 @import url('./slider/__unit/slider__unit.css');
 @import url('./slider/__unit/_disabled/slider__unit_disabled.css');
 @import url('./slider/__input/slider__input.css');
-
-/* TODO check import routes no ../styles */
+@import url('./slider/__input/_disabled/slider__input_disabled.css');

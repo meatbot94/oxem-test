@@ -47,6 +47,8 @@ p {
 
 input {
 	line-height: 0;
+	border: none;
+	background: transparent;
 }
 
 input[type='range'] {
@@ -54,13 +56,9 @@ input[type='range'] {
 	appearance: none;
 }
 
-/* TODO check all input defaults */
-
 input[type='range']::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	appearance: none;
-	/* TODO check this crutch */
-	/* transform: translate(0, -8px); */
 }
 
 button {
@@ -70,18 +68,3 @@ button {
 	line-height: 0;
 	border: none;
 }
-
-/* TODO remove all unused rules */
-
-/* TODO remove template after layout is finished */
-
-/*
-@media screen and (max-width: 1120px) {
-}
-
-@media screen and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 414px) {
-}
-*/

@@ -1,6 +1,5 @@
-/* block */
 @import url('./submit/submit.css');
 
-/* elements */
 @import url('./submit/__button/submit__button.css');
+@import url('./submit/__button/_disabled/submit__button_disabled.css');
 @import url('./submit/__button/_spinner/submit__button_spinner.css');

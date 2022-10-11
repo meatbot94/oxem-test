@@ -1,25 +1,16 @@
 .result__amount {
-	/* style */
 	font: 900 54px/49px 'Nekst', arial, sans-serif;
 	color: var(--tx-02);
 }
 
-@media screen and (max-width: 1120px) {
-}
-
-@media screen and (max-width: 1024px) {
-}
-
 @media screen and (max-width: 768px) {
 	.result__amount {
-		/* style */
 		font: 900 7.03125vw/6.3802083333333vw 'Nekst', arial, sans-serif;
 	}
 }
 
 @media screen and (max-width: 414px) {
 	.result__amount {
-		/* style */
 		font: 900 22px/20px 'Nekst', arial, sans-serif;
 	}
 }

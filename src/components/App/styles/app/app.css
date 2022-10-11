@@ -1,5 +1,4 @@
 .app {
-	/* position & sizing */
 	width: 100vw;
 	height: 100%;
 	padding: 213px 96px;
@@ -11,20 +10,14 @@
 	}
 }
 
-@media screen and (max-width: 1120px) {
-	/* TODO remove if unsused */
-}
-
 @media screen and (max-width: 1024px) {
 	.app {
-		/* position & sizing */
 		padding: 64px 36px;
 	}
 }
 
 @media screen and (max-width: 414px) {
 	.app {
-		/* position & sizing */
 		padding: 44px 20px;
 	}
 }

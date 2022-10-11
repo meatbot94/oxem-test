@@ -1,22 +1,12 @@
 .slider__title {
-	/* position & sizing */
 	margin: 0 0 24px 0;
-	/* style */
 	font: 400 16px/20px 'Gilroy', arial, sans-serif;
 	color: var(--tx-02);
 }
 
-@media screen and (max-width: 1120px) {
-}
-
-@media screen and (max-width: 1024px) {
-}
-
 @media screen and (max-width: 414px) {
 	.slider__title {
-		/* position & sizing */
 		margin: 0 0 8px 0;
-		/* style */
 		font: 400 14px/19px 'Gilroy', arial, sans-serif;
 	}
 }

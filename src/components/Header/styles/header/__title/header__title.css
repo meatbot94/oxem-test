@@ -1,13 +1,3 @@
 .header__title {
-	/* position & sizing */
 	max-width: 753px;
-}
-
-@media screen and (max-width: 1120px) {
-}
-
-@media screen and (max-width: 1024px) {
-}
-
-@media screen and (max-width: 414px) {
 }

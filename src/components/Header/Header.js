@@ -1,7 +1,5 @@
 import './styles/index.css';
-
 import Title from '../Title/Title';
-
 import { CONTENT } from '../../configs/config';
 
 const Header = ({ mix }) => (

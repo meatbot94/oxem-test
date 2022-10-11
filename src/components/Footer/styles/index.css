@@ -1,6 +1,4 @@
-/* block */
 @import url('./footer/footer.css');
 
-/* elements */
 @import url('./footer/__result/footer__result.css');
 @import url('./footer/__submit/footer__submit.css');
